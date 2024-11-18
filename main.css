@@ -1,0 +1,105 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: brown;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color:brown;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color:#fff;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.navbar-brand {
+    font-family: "Noto Sans Thai", sans-serif;
+    font-weight: bold;
+}
+
+.section-title{
+    font-family: "Noto Sans Thai", sans-serif;
+    font-weight: bold;
+    color: brown;
+}
+
+#sobre-o-restaurante, #cardapio {
+    background-color:blanchedalmond;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    }
+
+#cardapio .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cardapio aside .nav-link {
+    text-align: center;
+}
+
+#cardapio .col-md-10 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.menu-content {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: 0;
+    text-align: center;
+}
+
+.nav-cardapio .nav-link {
+    background-color: #b71c1c; 
+    color: #ffffff; 
+    width: 150px; 
+    text-align: center;
+    margin: 5px auto;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.nav-cardapio .nav-link.active {
+    background-color: #8a1b1b; 
+}
+
+.nav-cardapio .nav-link:hover, {
+    background-color:#b71c1c; 
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#fale-conosco button {
+    color: #fff;
+    background-color: #8a1b1b; 
+}
+
+#fale-conosco button:hover {
+    color: #fff;
+    background-color:#b71c1c; 
+}
